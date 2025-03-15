@@ -4,7 +4,6 @@
 |-----------|-------|
 | browser\BrowserCapabilities.js | 380 |
 | connectivity\ConnectionQuality.js | 469 |
-| connectivity\TrackStreamingStatus.ts | 636 |
 | detection\TrackVADEmitter.js | 237 |
 | detection\VADAudioAnalyser.js | 227 |
 | detection\VADNoiseDetection.js | 187 |
@@ -21,25 +20,21 @@
 | qualitycontrol\CodecSelection.js | 263 |
 | qualitycontrol\CodecSelection.spec.js | 405 |
 | qualitycontrol\QualityController.spec.js | 201 |
-| qualitycontrol\QualityController.ts | 466 |
 | qualitycontrol\ReceiveVideoController.js | 258 |
 | qualitycontrol\SendVideoController.js | 154 |
 | recording\JibriSession.js | 291 |
 | recording\RecordingManager.js | 310 |
 | red\red.spec.js | 206 |
-| RTC\BridgeChannel.ts | 453 |
 | RTC\JitsiRemoteTrack.js | 520 |
 | RTC\JitsiTrack.js | 527 |
 | RTC\MockClasses.js | 405 |
 | RTC\ScreenObtainer.js | 393 |
-| RTCStats\RTCStats.ts | 229 |
 | sdp\LocalSdpMunger.js | 158 |
 | sdp\LocalSdpMunger.spec.js | 185 |
 | sdp\RtxModifier.js | 209 |
 | sdp\RtxModifier.spec.js | 360 |
 | sdp\SampleSdpStrings.js | 637 |
 | sdp\SDPDiffer.spec.js | 330 |
-| sdp\SdpSimulcast.ts | 236 |
 | sdp\SdpTransformUtil.js | 403 |
 | statistics\AnalyticsAdapter.js | 354 |
 | statistics\LocalStatsCollector.js | 180 |

@@ -27,7 +27,7 @@ const categorizeFiles = (dir) => {
             const filePath = path.join(currentPath, file);
             if (fs.statSync(filePath).isDirectory()) {
                 scanDir(filePath);
-            } else if (file.endsWith('.js') || file.endsWith('.ts')) {
+            } else if (file.endsWith('.js')) {  // Only include .js files
                 const lines = countLines(filePath);
                 const relativePath = path.relative(DIRECTORY_TO_SCAN, filePath);
 
