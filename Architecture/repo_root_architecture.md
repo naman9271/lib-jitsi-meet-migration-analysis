@@ -1,10 +1,10 @@
 # Repository Root Architecture
 
-📂 Root - 13.9% migrated
+📂 Root - 19.9% migrated
 |
 ├──📂 doc - 0.0% migrated
-├──📂 modules - 19.1% migrated
-├──📂 service - 91.9% migrated
+├──📂 modules - 30.5% migrated
+├──📂 service - 100% migrated
 ├──📂 types - 97.9% migrated
 
 
@@ -40,9 +40,9 @@
 📜 JitsiMediaDevicesEvents.ts ✅ (Migrated)
 📜 JitsiMeetJS.spec.ts ✅ (Migrated)
 📜 JitsiMeetJS.ts ✅ (Migrated)
-📜 JitsiParticipant.js ❌ (Unmigrated)
+📜 JitsiParticipant.js ✅ (Migrated)
 📜 JitsiParticipantEvents.js ❌ (Unmigrated)
-📜 JitsiTrackError.js ❌ (Unmigrated)
+📜 JitsiTrackError.js ✅ (Migrated)
 📜 JitsiTrackErrors.spec.ts ✅ (Migrated)
 📜 JitsiTrackErrors.ts ✅ (Migrated)
 📜 JitsiTrackEvents.spec.ts ✅ (Migrated)
@@ -59,7 +59,6 @@
 📜 README.md 
 📜 repo2_architecture.md 
 📜 repo_architecture.md 
-📜 Root.js ❌ (Unmigrated)
 📜 SECURITY.md 
 📜 service_architecture.md 
 📜 tsconfig.json 

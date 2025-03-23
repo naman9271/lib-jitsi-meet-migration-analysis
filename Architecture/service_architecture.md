@@ -1,11 +1,10 @@
 # Repository Architecture - lib-jitsi-meet
 
+📂 ./service - 100.0% migrated
 
-📂 ./service - 91.9% migrated
-
-├── 📂 authentication - 50.0% migrated
-│   ├── 📜 AuthenticationEvents.js ❌ (Unmigrated)
-│   └── 📜 AuthenticationEvents.spec.ts ✅ (Migrated)
+├── 📂 authentication - 100.0% migrated
+│   ├── 📜 AuthenticationEvents.spec.ts ✅ (Migrated)
+│   └── 📜 AuthenticationEvents.ts ✅ (Migrated)
 ├── 📂 connectivity - 100.0% migrated
 │   ├── 📜 ConnectionQualityEvents.spec.ts ✅ (Migrated)
 │   ├── 📜 ConnectionQualityEvents.ts ✅ (Migrated)
@@ -13,7 +12,7 @@
 ├── 📂 e2eping - 100.0% migrated
 │   ├── 📜 E2ePingEvents.spec.ts ✅ (Migrated)
 │   └── 📜 E2ePingEvents.ts ✅ (Migrated)
-├── 📂 RTC - 90.5% migrated
+├── 📂 RTC - 100.0% migrated
 │   ├── 📜 BridgeVideoType.spec.ts ✅ (Migrated)
 │   ├── 📜 BridgeVideoType.ts ✅ (Migrated)
 │   ├── 📜 CameraFacingMode.spec.ts ✅ (Migrated)
@@ -24,13 +23,13 @@
 │   ├── 📜 MediaDirection.ts ✅ (Migrated)
 │   ├── 📜 MediaType.spec.ts ✅ (Migrated)
 │   ├── 📜 MediaType.ts ✅ (Migrated)
-│   ├── 📜 Resolutions.js ❌ (Unmigrated)
 │   ├── 📜 Resolutions.spec.ts ✅ (Migrated)
+│   ├── 📜 Resolutions.ts ✅ (Migrated)
 │   ├── 📜 RTCEvents.spec.ts ✅ (Migrated)
 │   ├── 📜 RTCEvents.ts ✅ (Migrated)
 │   ├── 📜 SignalingEvents.spec.ts ✅ (Migrated)
 │   ├── 📜 SignalingEvents.ts ✅ (Migrated)
-│   ├── 📜 SignalingLayer.js ❌ (Unmigrated)
+│   ├── 📜 SignalingLayer.ts ✅ (Migrated)
 │   ├── 📜 StandardVideoQualitySettings.ts ✅ (Migrated)
 │   ├── 📜 VideoEncoderScalabilityMode.ts ✅ (Migrated)
 │   ├── 📜 VideoType.spec.ts ✅ (Migrated)

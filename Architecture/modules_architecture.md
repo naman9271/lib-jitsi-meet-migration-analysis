@@ -1,17 +1,17 @@
 # Repository Architecture - lib-jitsi-meet
 
-📂 ./modules - 19.1% migrated
+📂 ./modules - 30.5% migrated
 
 ├── 📂 browser - 0.0% migrated
 │   ├── 📜 BrowserCapabilities.js ❌ (Unmigrated)
 │   └── 📜 index.js ❌ (Unmigrated)
-├── 📂 connectivity - 40.0% migrated
+├── 📂 connectivity - 60.0% migrated
 │   ├── 📜 ConnectionQuality.js ❌ (Unmigrated)
 │   ├── 📜 IceFailedHandling.spec.js ❌ (Unmigrated)
 │   ├── 📜 IceFailedHandling.ts ✅ (Migrated)
-│   ├── 📜 NetworkInfo.js ❌ (Unmigrated)
+│   ├── 📜 NetworkInfo.ts ✅ (Migrated)
 │   └── 📜 TrackStreamingStatus.ts ✅ (Migrated)
-├── 📂 detection - 20.0% migrated
+├── 📂 detection - 40.0% migrated
 │   ├── 📜 ActiveDeviceDetector.js ❌ (Unmigrated)
 │   ├── 📜 DetectionEvents.spec.ts ✅ (Migrated)
 │   ├── 📜 DetectionEvents.ts ✅ (Migrated)
@@ -20,9 +20,9 @@
 │   ├── 📜 TrackVADEmitter.js ❌ (Unmigrated)
 │   ├── 📜 VADAudioAnalyser.js ❌ (Unmigrated)
 │   ├── 📜 VADNoiseDetection.js ❌ (Unmigrated)
-│   ├── 📜 VADReportingService.js ❌ (Unmigrated)
-│   └── 📜 VADTalkMutedDetection.js ❌ (Unmigrated)
-├── 📂 e2ee - 7.7% migrated
+│   ├── 📜 VADReportingService.ts ✅ (Migrated)
+│   └── 📜 VADTalkMutedDetection.ts ✅ (Migrated)
+├── 📂 e2ee - 15.4% migrated
 │   ├── 📜 Context.js ❌ (Unmigrated)
 │   ├── 📜 Context.spec.js ❌ (Unmigrated)
 │   ├── 📜 crypto-utils.js ❌ (Unmigrated)
@@ -33,17 +33,17 @@
 │   ├── 📜 KeyHandler.js ❌ (Unmigrated)
 │   ├── 📜 ManagedKeyHandler.js ❌ (Unmigrated)
 │   ├── 📜 OlmAdapter.js ❌ (Unmigrated)
-│   ├── 📜 SAS.js ❌ (Unmigrated)
+│   ├── 📜 SAS.ts ✅ (Migrated)
 │   ├── 📜 utils.js ❌ (Unmigrated)
 │   └── 📜 Worker.js ❌ (Unmigrated)
-├── 📂 e2eping - 0.0% migrated
-│   └── 📜 e2eping.js ❌ (Unmigrated)
-├── 📂 event - 0.0% migrated
-│   └── 📜 Jvb121EventGenerator.js ❌ (Unmigrated)
+├── 📂 e2eping - 100.0% migrated
+│   └── 📜 e2eping.ts ✅ (Migrated)
+├── 📂 event - 100.0% migrated
+│   └── 📜 Jvb121EventGenerator.ts ✅ (Migrated)
 ├── 📂 flags - 100.0% migrated
 │   └── 📜 FeatureFlags.ts ✅ (Migrated)
-├── 📂 litemode - 0.0% migrated
-│   └── 📜 LiteModeContext.js ❌ (Unmigrated)
+├── 📂 litemode - 100.0% migrated
+│   └── 📜 LiteModeContext.ts ✅ (Migrated)
 ├── 📂 proxyconnection - 40.0% migrated
 │   ├── 📜 constants.spec.ts ✅ (Migrated)
 │   ├── 📜 constants.ts ✅ (Migrated)
@@ -59,20 +59,20 @@
 │   ├── 📜 ReceiveVideoController.js ❌ (Unmigrated)
 │   ├── 📜 ReceiveVideoController.spec.js ❌ (Unmigrated)
 │   └── 📜 SendVideoController.js ❌ (Unmigrated)
-├── 📂 recording - 0.0% migrated
+├── 📂 recording - 25.0% migrated
 │   ├── 📜 JibriSession.js ❌ (Unmigrated)
 │   ├── 📜 recordingConstants.js ❌ (Unmigrated)
-│   ├── 📜 RecordingManager.js ❌ (Unmigrated)
+│   ├── 📜 RecordingManager.ts ✅ (Migrated)
 │   └── 📜 recordingXMLUtils.js ❌ (Unmigrated)
-├── 📂 red - 0.0% migrated
-│   ├── 📜 red.js ❌ (Unmigrated)
-│   └── 📜 red.spec.js ❌ (Unmigrated)
-├── 📂 RTC - 9.1% migrated
+├── 📂 red - 50.0% migrated
+│   ├── 📜 red.spec.js ❌ (Unmigrated)
+│   └── 📜 red.ts ✅ (Migrated)
+├── 📂 RTC - 18.2% migrated
 │   ├── 📜 BridgeChannel.ts ✅ (Migrated)
 │   ├── 📜 JitsiLocalTrack.js ❌ (Unmigrated)
 │   ├── 📜 JitsiRemoteTrack.js ❌ (Unmigrated)
 │   ├── 📜 JitsiTrack.js ❌ (Unmigrated)
-│   ├── 📜 MockClasses.js ❌ (Unmigrated)
+│   ├── 📜 MockClasses.ts ✅ (Migrated)
 │   ├── 📜 RTC.js ❌ (Unmigrated)
 │   ├── 📜 RTCUtils.js ❌ (Unmigrated)
 │   ├── 📜 ScreenObtainer.js ❌ (Unmigrated)
@@ -101,7 +101,7 @@
 │   └── 📜 SDPUtil.spec.js ❌ (Unmigrated)
 ├── 📂 settings - 0.0% migrated
 │   └── 📜 Settings.js ❌ (Unmigrated)
-├── 📂 statistics - 7.7% migrated
+├── 📂 statistics - 15.4% migrated
 │   ├── 📜 AnalyticsAdapter.js ❌ (Unmigrated)
 │   ├── 📜 AvgRTPStatsReporter.js ❌ (Unmigrated)
 │   ├── 📜 constants.js ❌ (Unmigrated)
@@ -110,24 +110,24 @@
 │   ├── 📜 PerformanceObserverStats.spec.js ❌ (Unmigrated)
 │   ├── 📜 PreCallTest.ts ✅ (Migrated)
 │   ├── 📜 RTPStatsCollector.js ❌ (Unmigrated)
-│   ├── 📜 SpeakerStats.js ❌ (Unmigrated)
 │   ├── 📜 SpeakerStats.spec.js ❌ (Unmigrated)
+│   ├── 📜 SpeakerStats.ts ✅ (Migrated)
 │   ├── 📜 SpeakerStatsCollector.js ❌ (Unmigrated)
 │   ├── 📜 SpeakerStatsCollector.spec.js ❌ (Unmigrated)
 │   └── 📜 statistics.js ❌ (Unmigrated)
-├── 📂 util - 7.7% migrated
-│   ├── 📜 AsyncQueue.js ❌ (Unmigrated)
+├── 📂 util - 53.8% migrated
+│   ├── 📜 AsyncQueue.ts ✅ (Migrated)
 │   ├── 📜 Deferred.js ❌ (Unmigrated)
-│   ├── 📜 EventEmitter.js ❌ (Unmigrated)
+│   ├── 📜 EventEmitter.ts ✅ (Migrated)
 │   ├── 📜 EventEmitterForwarder.ts ✅ (Migrated)
 │   ├── 📜 Listenable.js ❌ (Unmigrated)
-│   ├── 📜 MathUtil.js ❌ (Unmigrated)
 │   ├── 📜 MathUtil.spec.js ❌ (Unmigrated)
+│   ├── 📜 MathUtil.ts ✅ (Migrated)
 │   ├── 📜 RandomUtil.js ❌ (Unmigrated)
 │   ├── 📜 Retry.js ❌ (Unmigrated)
-│   ├── 📜 ScriptUtil.js ❌ (Unmigrated)
-│   ├── 📜 StringUtils.js ❌ (Unmigrated)
-│   ├── 📜 TestUtils.js ❌ (Unmigrated)
+│   ├── 📜 ScriptUtil.ts ✅ (Migrated)
+│   ├── 📜 StringUtils.ts ✅ (Migrated)
+│   ├── 📜 TestUtils.ts ✅ (Migrated)
 │   └── 📜 UsernameGenerator.js ❌ (Unmigrated)
 ├── 📂 version - 100.0% migrated
 │   └── 📜 ComponentsVersions.ts ✅ (Migrated)
@@ -143,8 +143,8 @@
 ├── 📂 webaudio - 0.0% migrated
 │   ├── 📜 AudioMixer.js ❌ (Unmigrated)
 │   └── 📜 WebAudioUtils.js ❌ (Unmigrated)
-└── 📂 xmpp - 15.2% migrated
-    ├── 📜 AVModeration.js ❌ (Unmigrated)
+└── 📂 xmpp - 17.1% migrated
+    ├── 📜 AVModeration.ts ✅ (Migrated)
     ├── 📜 BreakoutRooms.js ❌ (Unmigrated)
     ├── 📜 Caps.js ❌ (Unmigrated)
     ├── 📜 ChatRoom.js ❌ (Unmigrated)
@@ -167,11 +167,13 @@
     ├── 📜 sha1.js ❌ (Unmigrated)
     ├── 📜 SignalingLayerImpl.js ❌ (Unmigrated)
     ├── 📜 SignalingLayerImpl.spec.js ❌ (Unmigrated)
+    ├── 📜 strophe.disco.js ❌ (Unmigrated)
     ├── 📜 strophe.emuc.js ❌ (Unmigrated)
     ├── 📜 strophe.jingle.js ❌ (Unmigrated)
     ├── 📜 strophe.logger.js ❌ (Unmigrated)
     ├── 📜 strophe.ping.js ❌ (Unmigrated)
     ├── 📜 strophe.rayo.js ❌ (Unmigrated)
+    ├── 📜 strophe.stream-management.js ❌ (Unmigrated)
     ├── 📜 strophe.util.js ❌ (Unmigrated)
     ├── 📜 StropheLastSuccess.js ❌ (Unmigrated)
     ├── 📜 xmpp.js ❌ (Unmigrated)
