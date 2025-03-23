@@ -15,7 +15,7 @@
 | statistics\AvgRTPStatsReporter.js | 1021 |
 | statistics\RTPStatsCollector.js | 704 |
 | xmpp\ChatRoom.js | 2056 |
-| xmpp\JingleSessionPC.js | 2400 |
+| xmpp\JingleSessionPC.js | 2402 |
 | xmpp\xmpp.js | 1149 |
 | JitsiConferenceEventManager.js | 745 |
 | JitsiConference.js | 4219 |
