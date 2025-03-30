@@ -1,11 +1,9 @@
 # Repository Root Architecture
 
-📂 Root - 19.9% migrated
+📂 Root - 22.5% migrated
 |
-├──📂 doc - 0.0% migrated
-├──📂 modules - 30.5% migrated
+├──📂 modules - 37% migrated
 ├──📂 service - 100% migrated
-├──📂 types - 97.9% migrated
 
 
 

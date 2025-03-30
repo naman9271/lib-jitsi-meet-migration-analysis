@@ -1,6 +1,6 @@
 # Repository Architecture - lib-jitsi-meet
 
-📂 ./modules - 30.5% migrated
+📂 ./modules - 37.0% migrated
 
 ├── 📂 browser - 0.0% migrated
 │   ├── 📜 BrowserCapabilities.js ❌ (Unmigrated)
@@ -11,18 +11,18 @@
 │   ├── 📜 IceFailedHandling.ts ✅ (Migrated)
 │   ├── 📜 NetworkInfo.ts ✅ (Migrated)
 │   └── 📜 TrackStreamingStatus.ts ✅ (Migrated)
-├── 📂 detection - 40.0% migrated
+├── 📂 detection - 50.0% migrated
 │   ├── 📜 ActiveDeviceDetector.js ❌ (Unmigrated)
 │   ├── 📜 DetectionEvents.spec.ts ✅ (Migrated)
 │   ├── 📜 DetectionEvents.ts ✅ (Migrated)
 │   ├── 📜 NoAudioSignalDetection.js ❌ (Unmigrated)
-│   ├── 📜 P2PDominantSpeakerDetection.js ❌ (Unmigrated)
+│   ├── 📜 P2PDominantSpeakerDetection.ts ✅ (Migrated)
 │   ├── 📜 TrackVADEmitter.js ❌ (Unmigrated)
 │   ├── 📜 VADAudioAnalyser.js ❌ (Unmigrated)
 │   ├── 📜 VADNoiseDetection.js ❌ (Unmigrated)
 │   ├── 📜 VADReportingService.ts ✅ (Migrated)
 │   └── 📜 VADTalkMutedDetection.ts ✅ (Migrated)
-├── 📂 e2ee - 15.4% migrated
+├── 📂 e2ee - 23.1% migrated
 │   ├── 📜 Context.js ❌ (Unmigrated)
 │   ├── 📜 Context.spec.js ❌ (Unmigrated)
 │   ├── 📜 crypto-utils.js ❌ (Unmigrated)
@@ -34,7 +34,7 @@
 │   ├── 📜 ManagedKeyHandler.js ❌ (Unmigrated)
 │   ├── 📜 OlmAdapter.js ❌ (Unmigrated)
 │   ├── 📜 SAS.ts ✅ (Migrated)
-│   ├── 📜 utils.js ❌ (Unmigrated)
+│   ├── 📜 utils.ts ✅ (Migrated)
 │   └── 📜 Worker.js ❌ (Unmigrated)
 ├── 📂 e2eping - 100.0% migrated
 │   └── 📜 e2eping.ts ✅ (Migrated)
@@ -59,9 +59,9 @@
 │   ├── 📜 ReceiveVideoController.js ❌ (Unmigrated)
 │   ├── 📜 ReceiveVideoController.spec.js ❌ (Unmigrated)
 │   └── 📜 SendVideoController.js ❌ (Unmigrated)
-├── 📂 recording - 25.0% migrated
+├── 📂 recording - 50.0% migrated
 │   ├── 📜 JibriSession.js ❌ (Unmigrated)
-│   ├── 📜 recordingConstants.js ❌ (Unmigrated)
+│   ├── 📜 recordingConstants.ts ✅ (Migrated)
 │   ├── 📜 RecordingManager.ts ✅ (Migrated)
 │   └── 📜 recordingXMLUtils.js ❌ (Unmigrated)
 ├── 📂 red - 50.0% migrated
@@ -99,8 +99,8 @@
 │   ├── 📜 SdpTransformUtil.js ❌ (Unmigrated)
 │   ├── 📜 SDPUtil.js ❌ (Unmigrated)
 │   └── 📜 SDPUtil.spec.js ❌ (Unmigrated)
-├── 📂 settings - 0.0% migrated
-│   └── 📜 Settings.js ❌ (Unmigrated)
+├── 📂 settings - 100.0% migrated
+│   └── 📜 Settings.ts ✅ (Migrated)
 ├── 📂 statistics - 15.4% migrated
 │   ├── 📜 AnalyticsAdapter.js ❌ (Unmigrated)
 │   ├── 📜 AvgRTPStatsReporter.js ❌ (Unmigrated)
@@ -115,20 +115,20 @@
 │   ├── 📜 SpeakerStatsCollector.js ❌ (Unmigrated)
 │   ├── 📜 SpeakerStatsCollector.spec.js ❌ (Unmigrated)
 │   └── 📜 statistics.js ❌ (Unmigrated)
-├── 📂 util - 53.8% migrated
+├── 📂 util - 76.9% migrated
 │   ├── 📜 AsyncQueue.ts ✅ (Migrated)
 │   ├── 📜 Deferred.js ❌ (Unmigrated)
 │   ├── 📜 EventEmitter.ts ✅ (Migrated)
 │   ├── 📜 EventEmitterForwarder.ts ✅ (Migrated)
-│   ├── 📜 Listenable.js ❌ (Unmigrated)
+│   ├── 📜 Listenable.ts ✅ (Migrated)
 │   ├── 📜 MathUtil.spec.js ❌ (Unmigrated)
 │   ├── 📜 MathUtil.ts ✅ (Migrated)
 │   ├── 📜 RandomUtil.js ❌ (Unmigrated)
-│   ├── 📜 Retry.js ❌ (Unmigrated)
+│   ├── 📜 Retry.ts ✅ (Migrated)
 │   ├── 📜 ScriptUtil.ts ✅ (Migrated)
 │   ├── 📜 StringUtils.ts ✅ (Migrated)
 │   ├── 📜 TestUtils.ts ✅ (Migrated)
-│   └── 📜 UsernameGenerator.js ❌ (Unmigrated)
+│   └── 📜 UsernameGenerator.ts ✅ (Migrated)
 ├── 📂 version - 100.0% migrated
 │   └── 📜 ComponentsVersions.ts ✅ (Migrated)
 ├── 📂 videosipgw - 50.0% migrated
@@ -143,14 +143,14 @@
 ├── 📂 webaudio - 0.0% migrated
 │   ├── 📜 AudioMixer.js ❌ (Unmigrated)
 │   └── 📜 WebAudioUtils.js ❌ (Unmigrated)
-└── 📂 xmpp - 17.1% migrated
+└── 📂 xmpp - 25.7% migrated
     ├── 📜 AVModeration.ts ✅ (Migrated)
     ├── 📜 BreakoutRooms.js ❌ (Unmigrated)
     ├── 📜 Caps.js ❌ (Unmigrated)
     ├── 📜 ChatRoom.js ❌ (Unmigrated)
     ├── 📜 ChatRoom.spec.js ❌ (Unmigrated)
-    ├── 📜 ConnectionPlugin.js ❌ (Unmigrated)
-    ├── 📜 JingleHelperFunctions.js ❌ (Unmigrated)
+    ├── 📜 ConnectionPlugin.ts ✅ (Migrated)
+    ├── 📜 JingleHelperFunctions.ts ✅ (Migrated)
     ├── 📜 JingleSession.js ❌ (Unmigrated)
     ├── 📜 JingleSessionPC.js ❌ (Unmigrated)
     ├── 📜 JingleSessionPC.spec.js ❌ (Unmigrated)
@@ -161,8 +161,8 @@
     ├── 📜 MediaSessionEvents.ts ✅ (Migrated)
     ├── 📜 MockClasses.js ❌ (Unmigrated)
     ├── 📜 moderator.js ❌ (Unmigrated)
-    ├── 📜 ResumeTask.js ❌ (Unmigrated)
     ├── 📜 ResumeTask.spec.js ❌ (Unmigrated)
+    ├── 📜 ResumeTask.ts ✅ (Migrated)
     ├── 📜 RoomMetadata.ts ✅ (Migrated)
     ├── 📜 sha1.js ❌ (Unmigrated)
     ├── 📜 SignalingLayerImpl.js ❌ (Unmigrated)

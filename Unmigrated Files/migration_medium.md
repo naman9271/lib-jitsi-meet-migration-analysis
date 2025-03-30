@@ -3,7 +3,7 @@
 | File Path | Lines |
 |-----------|-------|
 | browser\BrowserCapabilities.js | 380 |
-| connectivity\ConnectionQuality.js | 450 |
+| connectivity\ConnectionQuality.js | 466 |
 | detection\TrackVADEmitter.js | 237 |
 | detection\VADAudioAnalyser.js | 227 |
 | detection\VADNoiseDetection.js | 187 |
@@ -35,17 +35,14 @@
 | statistics\LocalStatsCollector.js | 180 |
 | statistics\SpeakerStatsCollector.js | 200 |
 | statistics\statistics.js | 413 |
-| util\UsernameGenerator.js | 442 |
 | videosipgw\JitsiVideoSIPGWSession.js | 158 |
 | xmpp\BreakoutRooms.js | 268 |
 | xmpp\Caps.js | 274 |
 | xmpp\ChatRoom.spec.js | 409 |
-| xmpp\JingleHelperFunctions.js | 199 |
 | xmpp\JingleSession.js | 208 |
 | xmpp\JingleSessionPC.spec.js | 294 |
 | xmpp\Lobby.js | 463 |
 | xmpp\moderator.js | 623 |
-| xmpp\ResumeTask.js | 185 |
 | xmpp\sha1.js | 175 |
 | xmpp\SignalingLayerImpl.js | 418 |
 | xmpp\SignalingLayerImpl.spec.js | 331 |
@@ -54,7 +51,7 @@
 | xmpp\strophe.jingle.js | 488 |
 | xmpp\strophe.ping.js | 204 |
 | xmpp\strophe.stream-management.js | 464 |
-| xmpp\XmppConnection.js | 660 |
+| xmpp\XmppConnection.js | 672 |
 | xmpp\XmppConnection.spec.js | 151 |
 | JitsiMediaDevices.js | 273 |
 | JitsiConnection.js | 206 |
