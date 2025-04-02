@@ -56,4 +56,5 @@ const overallPercentage = getPercentage(result.migratedCount, result.totalCount)
 const repoStructure = `# Repository Architecture - lib-jitsi-meet\n\n📂 ${ROOT_DIR} - ${overallPercentage}% migrated\n\n${result.structure}`;
 
 fs.writeFileSync(OUTPUT_FILE, repoStructure);
-console.log(`✅ Repository architecture saved to ${OUTPUT_FILE}`);
+console.log(`Repository architecture saved to ${OUTPUT_FILE}`);
+
