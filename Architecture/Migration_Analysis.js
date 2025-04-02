@@ -1,7 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 
-const ROOT_DIR = "./types";
+const ROOT_DIR = "./types"; // add the directory 
 const OUTPUT_FILE = `${ROOT_DIR}_architecture.md`;
 
 /**
